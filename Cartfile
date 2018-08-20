@@ -1,4 +1,4 @@
-"realm/realm-cocoa"
+github "realm/realm-cocoa"
 github "SwiftyJSON/SwiftyJSON"
 github "Alamofire/Alamofire"
 github "0x73/SwiftIconFont"
