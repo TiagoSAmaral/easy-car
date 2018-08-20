@@ -13,6 +13,13 @@
 		F1D9A9D8212356D900927706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9A9D7212356D900927706 /* ViewController.swift */; };
 		F1D9A9DA212356E700927706 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D9A9D9212356E700927706 /* ViewController.storyboard */; };
 		F1D9A9F02123665300927706 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9A9EE212365F000927706 /* ViewControllerTests.swift */; };
+		F1DAB6B6212B09970067A6AB /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6B5212B09970067A6AB /* Network.swift */; };
+		F1DAB6B7212B11450067A6AB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D9A9DF212363B900927706 /* Alamofire.framework */; };
+		F1DAB6B8212B11450067A6AB /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D9A9E4212363B900927706 /* Kingfisher.framework */; };
+		F1DAB6B9212B11450067A6AB /* SwiftIconFont.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D9A9E1212363B900927706 /* SwiftIconFont.framework */; };
+		F1DAB6BA212B11450067A6AB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D9A9E2212363B900927706 /* SwiftyJSON.framework */; };
+		F1DAB6BD212B11450067A6AB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DAB6BB212B11450067A6AB /* Realm.framework */; };
+		F1DAB6BE212B11450067A6AB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DAB6BC212B11450067A6AB /* RealmSwift.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +50,9 @@
 		F1D9A9E4212363B900927706 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		F1D9A9E5212363BA00927706 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/iOS/OHHTTPStubs.framework; sourceTree = "<group>"; };
 		F1D9A9EE212365F000927706 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		F1DAB6B5212B09970067A6AB /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		F1DAB6BB212B11450067A6AB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		F1DAB6BC212B11450067A6AB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +60,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DAB6BD212B11450067A6AB /* Realm.framework in Frameworks */,
+				F1DAB6BE212B11450067A6AB /* RealmSwift.framework in Frameworks */,
+				F1DAB6B7212B11450067A6AB /* Alamofire.framework in Frameworks */,
+				F1DAB6B8212B11450067A6AB /* Kingfisher.framework in Frameworks */,
+				F1DAB6B9212B11450067A6AB /* SwiftIconFont.framework in Frameworks */,
+				F1DAB6BA212B11450067A6AB /* SwiftyJSON.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +109,7 @@
 		F1D9A9BD21234D3000927706 /* app */ = {
 			isa = PBXGroup;
 			children = (
+				F1DAB6B4212B097B0067A6AB /* Network */,
 				F1D9A9D6212356B500927706 /* ViewController */,
 				F1D9A9BE21234D3000927706 /* Launch */,
 				F1D9A9C121234D3000927706 /* System */,
@@ -155,6 +172,8 @@
 		F1D9A9DE212363B900927706 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F1DAB6BB212B11450067A6AB /* Realm.framework */,
+				F1DAB6BC212B11450067A6AB /* RealmSwift.framework */,
 				F1D9A9DF212363B900927706 /* Alamofire.framework */,
 				F1D9A9E4212363B900927706 /* Kingfisher.framework */,
 				F1D9A9E0212363B900927706 /* Nimble.framework */,
@@ -164,6 +183,14 @@
 				F1D9A9E2212363B900927706 /* SwiftyJSON.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1DAB6B4212B097B0067A6AB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAB6B5212B09970067A6AB /* Network.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -286,6 +313,12 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Alamofire.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Kingfisher.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Realm.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RealmSwift.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftIconFont.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			name = Carthage;
 			outputPaths = (
@@ -300,6 +333,10 @@
 			files = (
 			);
 			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/OHHTTPStubs.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SwiftyJSON.framework",
 			);
 			name = Carthage;
 			outputPaths = (
@@ -317,6 +354,7 @@
 			files = (
 				F1D9A9D8212356D900927706 /* ViewController.swift in Sources */,
 				F1D9A9CE21234D3000927706 /* AppDelegate.swift in Sources */,
+				F1DAB6B6212B09970067A6AB /* Network.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -472,7 +510,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7SQ2QJ5AU;
 				ENVIRONMENT = debug;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/source/app/System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -493,7 +534,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7SQ2QJ5AU;
 				ENVIRONMENT = release;
-				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/source/app/System/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
