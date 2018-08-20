@@ -21,6 +21,8 @@
 		F1DAB6BD212B11450067A6AB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DAB6BB212B11450067A6AB /* Realm.framework */; };
 		F1DAB6BE212B11450067A6AB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DAB6BC212B11450067A6AB /* RealmSwift.framework */; };
 		F1DAB6C1212B216A0067A6AB /* ShopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C0212B216A0067A6AB /* ShopButton.swift */; };
+		F1DAB6C3212B21D90067A6AB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C2212B21D90067A6AB /* StringExtension.swift */; };
+		F1DAB6C5212B230D0067A6AB /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C4212B230D0067A6AB /* UIViewControllerExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		F1DAB6BB212B11450067A6AB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		F1DAB6BC212B11450067A6AB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		F1DAB6C0212B216A0067A6AB /* ShopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopButton.swift; sourceTree = "<group>"; };
+		F1DAB6C2212B21D90067A6AB /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		F1DAB6C4212B230D0067A6AB /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				F1DAB6C0212B216A0067A6AB /* ShopButton.swift */,
+				F1DAB6C2212B21D90067A6AB /* StringExtension.swift */,
+				F1DAB6C4212B230D0067A6AB /* UIViewControllerExtension.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -365,6 +371,8 @@
 			files = (
 				F1D9A9D8212356D900927706 /* ViewController.swift in Sources */,
 				F1DAB6C1212B216A0067A6AB /* ShopButton.swift in Sources */,
+				F1DAB6C5212B230D0067A6AB /* UIViewControllerExtension.swift in Sources */,
+				F1DAB6C3212B21D90067A6AB /* StringExtension.swift in Sources */,
 				F1D9A9CE21234D3000927706 /* AppDelegate.swift in Sources */,
 				F1DAB6B6212B09970067A6AB /* Network.swift in Sources */,
 			);
