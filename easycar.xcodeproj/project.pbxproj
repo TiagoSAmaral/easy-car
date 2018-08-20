@@ -20,6 +20,7 @@
 		F1DAB6BA212B11450067A6AB /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D9A9E2212363B900927706 /* SwiftyJSON.framework */; };
 		F1DAB6BD212B11450067A6AB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DAB6BB212B11450067A6AB /* Realm.framework */; };
 		F1DAB6BE212B11450067A6AB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DAB6BC212B11450067A6AB /* RealmSwift.framework */; };
+		F1DAB6C1212B216A0067A6AB /* ShopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C0212B216A0067A6AB /* ShopButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		F1DAB6B5212B09970067A6AB /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		F1DAB6BB212B11450067A6AB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		F1DAB6BC212B11450067A6AB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
+		F1DAB6C0212B216A0067A6AB /* ShopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 		F1D9A9BD21234D3000927706 /* app */ = {
 			isa = PBXGroup;
 			children = (
+				F1DAB6BF212B21430067A6AB /* Util */,
 				F1DAB6B4212B097B0067A6AB /* Network */,
 				F1D9A9D6212356B500927706 /* ViewController */,
 				F1D9A9BE21234D3000927706 /* Launch */,
@@ -191,6 +194,14 @@
 				F1DAB6B5212B09970067A6AB /* Network.swift */,
 			);
 			path = Network;
+			sourceTree = "<group>";
+		};
+		F1DAB6BF212B21430067A6AB /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAB6C0212B216A0067A6AB /* ShopButton.swift */,
+			);
+			path = Util;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -353,6 +364,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D9A9D8212356D900927706 /* ViewController.swift in Sources */,
+				F1DAB6C1212B216A0067A6AB /* ShopButton.swift in Sources */,
 				F1D9A9CE21234D3000927706 /* AppDelegate.swift in Sources */,
 				F1DAB6B6212B09970067A6AB /* Network.swift in Sources */,
 			);
