@@ -18,11 +18,6 @@ class ShopButton: UIButton {
 		self.setBackgroundColor()
 	}
 
-	private func setBackgroundColor() {
-
-		self.backgroundColor = UIColor(red: 255.0/255.0, green: 201.0/255.0, blue: 0/255.0, alpha: 1.0)
-	}
-
 	func setLabel(icon: String?, text: String?, fontSize: CGFloat) {
 
 		var finalText = String()
@@ -43,7 +38,12 @@ class ShopButton: UIButton {
 		self.parseIcon()
 	}
 
-	private func setBorders(){
+	func setBackgroundColor() {
+
+		self.backgroundColor = Colors.primary.value
+	}
+
+	func setBorders(){
 
 		self.layer.cornerRadius = 10.0
 	}
