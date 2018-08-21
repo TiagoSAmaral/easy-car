@@ -23,6 +23,11 @@
 		F1DAB6C1212B216A0067A6AB /* ShopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C0212B216A0067A6AB /* ShopButton.swift */; };
 		F1DAB6C3212B21D90067A6AB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C2212B21D90067A6AB /* StringExtension.swift */; };
 		F1DAB6C5212B230D0067A6AB /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C4212B230D0067A6AB /* UIViewControllerExtension.swift */; };
+		F1DAB6CA212B24430067A6AB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C9212B24430067A6AB /* Colors.swift */; };
+		F1DAB6CB212BAB360067A6AB /* UtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C7212B23E50067A6AB /* UtilTests.swift */; };
+		F1DAB6CE212BBE690067A6AB /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6CD212BBE690067A6AB /* NetworkTests.swift */; };
+		F1DAB6D1212BBE8C0067A6AB /* Stubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6D0212BBE8C0067A6AB /* Stubs.swift */; };
+		F1DAB6D4212BBF0D0067A6AB /* mocklistcar.json in Resources */ = {isa = PBXBuildFile; fileRef = F1DAB6D3212BBF0D0067A6AB /* mocklistcar.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +64,11 @@
 		F1DAB6C0212B216A0067A6AB /* ShopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopButton.swift; sourceTree = "<group>"; };
 		F1DAB6C2212B21D90067A6AB /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
 		F1DAB6C4212B230D0067A6AB /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
+		F1DAB6C7212B23E50067A6AB /* UtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilTests.swift; sourceTree = "<group>"; };
+		F1DAB6C9212B24430067A6AB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		F1DAB6CD212BBE690067A6AB /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
+		F1DAB6D0212BBE8C0067A6AB /* Stubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubs.swift; sourceTree = "<group>"; };
+		F1DAB6D3212BBF0D0067A6AB /* mocklistcar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mocklistcar.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +163,9 @@
 		F1D9A9C921234D3000927706 /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				F1DAB6CF212BBE7B0067A6AB /* Stubs */,
+				F1DAB6CC212BBE4F0067A6AB /* NetworkTests */,
+				F1DAB6C6212B23C30067A6AB /* UtilTests */,
 				F1D9A9DC2123632500927706 /* ViewController */,
 				F1D9A9CC21234D3000927706 /* Info.plist */,
 			);
@@ -206,8 +219,42 @@
 				F1DAB6C0212B216A0067A6AB /* ShopButton.swift */,
 				F1DAB6C2212B21D90067A6AB /* StringExtension.swift */,
 				F1DAB6C4212B230D0067A6AB /* UIViewControllerExtension.swift */,
+				F1DAB6C9212B24430067A6AB /* Colors.swift */,
 			);
 			path = Util;
+			sourceTree = "<group>";
+		};
+		F1DAB6C6212B23C30067A6AB /* UtilTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAB6C7212B23E50067A6AB /* UtilTests.swift */,
+			);
+			path = UtilTests;
+			sourceTree = "<group>";
+		};
+		F1DAB6CC212BBE4F0067A6AB /* NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAB6CD212BBE690067A6AB /* NetworkTests.swift */,
+			);
+			path = NetworkTests;
+			sourceTree = "<group>";
+		};
+		F1DAB6CF212BBE7B0067A6AB /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAB6D2212BBEA10067A6AB /* json */,
+				F1DAB6D0212BBE8C0067A6AB /* Stubs.swift */,
+			);
+			path = Stubs;
+			sourceTree = "<group>";
+		};
+		F1DAB6D2212BBEA10067A6AB /* json */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAB6D3212BBF0D0067A6AB /* mocklistcar.json */,
+			);
+			path = json;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -304,6 +351,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DAB6D4212BBF0D0067A6AB /* mocklistcar.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +418,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1D9A9D8212356D900927706 /* ViewController.swift in Sources */,
+				F1DAB6CA212B24430067A6AB /* Colors.swift in Sources */,
 				F1DAB6C1212B216A0067A6AB /* ShopButton.swift in Sources */,
 				F1DAB6C5212B230D0067A6AB /* UIViewControllerExtension.swift in Sources */,
 				F1DAB6C3212B21D90067A6AB /* StringExtension.swift in Sources */,
@@ -382,7 +431,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DAB6CE212BBE690067A6AB /* NetworkTests.swift in Sources */,
 				F1D9A9F02123665300927706 /* ViewControllerTests.swift in Sources */,
+				F1DAB6CB212BAB360067A6AB /* UtilTests.swift in Sources */,
+				F1DAB6D1212BBE8C0067A6AB /* Stubs.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
