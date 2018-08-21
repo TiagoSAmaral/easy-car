@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="ShopCell" rowHeight="120" id="KGk-i7-Jjw" customClass="ShopCell" customModule="easycar" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="159.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="WaL-1y-82Z">
+                        <rect key="frame" x="8" y="29.5" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="GDO-4T-VbA"/>
+                            <constraint firstAttribute="height" constant="100" id="e1h-aL-9HP"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="R$ 3.000,00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bgJ-BM-wkd">
+                        <rect key="frame" x="116" y="73" width="196" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="gzP-Au-57Y"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Palio Weekend 2014 - Azul" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Syx-91-qdK">
+                        <rect key="frame" x="116" y="17" width="196" height="51"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="51" id="NW5-FU-Cym"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfn-cJ-JM8" customClass="ShopButton" customModule="easycar" customModuleProvider="target">
+                        <rect key="frame" x="116" y="111" width="196" height="32"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="32" id="Jao-9f-YN3"/>
+                        </constraints>
+                        <state key="normal" title="Comprar"/>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="WaL-1y-82Z" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="1Nv-g0-4hX"/>
+                    <constraint firstItem="lfn-cJ-JM8" firstAttribute="leading" secondItem="WaL-1y-82Z" secondAttribute="trailing" constant="8" id="73d-0u-5II"/>
+                    <constraint firstItem="bgJ-BM-wkd" firstAttribute="top" secondItem="Syx-91-qdK" secondAttribute="bottom" constant="5" id="OM9-oI-iCj"/>
+                    <constraint firstAttribute="bottom" secondItem="lfn-cJ-JM8" secondAttribute="bottom" constant="16.5" id="UIU-pi-W49"/>
+                    <constraint firstAttribute="trailing" secondItem="lfn-cJ-JM8" secondAttribute="trailing" constant="8" id="UwW-ev-HTv"/>
+                    <constraint firstItem="Syx-91-qdK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="17" id="bSq-NO-IDY"/>
+                    <constraint firstAttribute="trailing" secondItem="bgJ-BM-wkd" secondAttribute="trailing" constant="8" id="dBT-qx-lMV"/>
+                    <constraint firstItem="lfn-cJ-JM8" firstAttribute="top" secondItem="bgJ-BM-wkd" secondAttribute="bottom" constant="5" id="fjy-4L-yt6"/>
+                    <constraint firstItem="bgJ-BM-wkd" firstAttribute="leading" secondItem="WaL-1y-82Z" secondAttribute="trailing" constant="8" id="lcr-bn-dcq"/>
+                    <constraint firstItem="WaL-1y-82Z" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="qr4-2b-WwB"/>
+                    <constraint firstAttribute="trailing" secondItem="Syx-91-qdK" secondAttribute="trailing" constant="8" id="sIR-Ha-dFk"/>
+                    <constraint firstItem="Syx-91-qdK" firstAttribute="leading" secondItem="WaL-1y-82Z" secondAttribute="trailing" constant="8" id="uHH-bf-mgv"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="button" destination="lfn-cJ-JM8" id="YVi-rh-fzc"/>
+                <outlet property="name" destination="Syx-91-qdK" id="Pn6-6n-hcZ"/>
+                <outlet property="photo" destination="WaL-1y-82Z" id="x0E-yL-MuV"/>
+                <outlet property="price" destination="bgJ-BM-wkd" id="OTC-dc-0r5"/>
+            </connections>
+            <point key="canvasLocation" x="25" y="14"/>
+        </tableViewCell>
+    </objects>
+</document>
