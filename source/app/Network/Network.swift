@@ -12,7 +12,7 @@ import Alamofire
 protocol NetworkInterface {
 
 	func request(
-		_ address: String,
+		_ address: URL,
 		operation: HTTPMethod,
 		params: [String: Any]?,
 		completion: @escaping (Data?, Error?) -> Void)
@@ -20,7 +20,7 @@ protocol NetworkInterface {
 
 class Network: NetworkInterface {
 
-	func request(_ address: String, operation: HTTPMethod, params: [String: Any]?, completion: @escaping (Data?, Error?) -> Void) {
+	func request(_ address: URL, operation: HTTPMethod, params: [String: Any]?, completion: @escaping (Data?, Error?) -> Void) {
 
 		UIApplication.shared.isNetworkActivityIndicatorVisible = true
 
@@ -31,5 +31,4 @@ class Network: NetworkInterface {
 
 		}
 	}
-
 }
