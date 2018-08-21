@@ -110,6 +110,19 @@ class UtilTests: QuickSpec {
 					expect(Colors.gray.value).to(equal(expected))
 				})
 			})
+
+			context("NSObject Extension", closure: {
+				it("Parse name class to string", closure: {
+					expect(NSObject.identifier).to(equal("NSObject"))
+				})
+			})
+
+			context("Detect Debug Enviroment", closure: {
+				it("Check enviroment Debug", closure: {
+					let enviroment = Environment()
+					expect(enviroment.current).to(equal(EnvironmentFlag.debug))
+				})
+			})
         }
 	}
 
