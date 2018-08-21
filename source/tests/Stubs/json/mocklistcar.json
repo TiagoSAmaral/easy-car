@@ -1,0 +1,173 @@
+[
+    {
+        "id": 1,
+        "nome": "Nissan GT-R",
+        "descricao": "O Nissan GT-R é um modelo de automóvel superesportivo produzido pela Nissan, foi anunciado em 2001 com o objetivo de reviver a marca GT-R",
+        "marca": "Nissan",
+        "quantidade": 30,
+        "preco": 25000,
+        "imagem": "https://www.nissan-cdn.net/content/dam/Nissan/br/vehicles/2016/gt-r/cores/tablet-1160-600/17TDI_GTRdp100.jpg.ximg.m_12_h.smart.jpg"
+    },
+    {
+        "id": 2,
+        "nome": "Gol",
+        "descricao": "Chegando a Quinta geração do Gol , mais conhecida como Novo Gol , lançado em junho de 2008. O modelo foi totalmente mudado Interna e Externamente; com um motor EA111",
+        "marca": "Volkswagen",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://3.bp.blogspot.com/-4kw50eNUOME/V19D0HgYQ7I/AAAAAAACYog/5C1pM-T8MgQt3xUNEJF0Ww8LStBw1_WNACLcB/s1600/VW-Gol-2017%2B%25282%2529.jpg"
+    },
+    {
+        "id": 3,
+        "nome": "Pálio",
+        "descricao": "Fiat Palio foi um automóvel compacto produzido pela Fiat, tendo sido projetado para mercados emergentes como América Latina, África do Sul, Leste Europeu e Ásia.",
+        "marca": "Fiat",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://icdn-2.motor1.com/images/mgl/VYWJM/s1/fiat-palio-essence-16-16v.jpg"
+    },
+    {
+        "id": 4,
+        "nome": "Corsa",
+        "descricao": "O Corsa foi um modelo de automóvel da Chevrolet comercializado na América Latina e em alguns países da Ásia, baseado na geração B do Opel Corsa (1993-2000) produzido pela Opel, filial da General Motors na Europa",
+        "marca": "Chevrolet",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://d2cmvxf0t9vz8m.cloudfront.net/images/carpage/corsa-hatch-novo.png"
+    },
+    {
+        "id": 5,
+        "nome": "Onix",
+        "descricao": "O Onix é um automóvel compacto, produzido pela Chevrolet; desenvolvido e fabricado pela General Motors do Brasil. Em 2012, foi apresentado no salão de São Paulo, sendo uma das atrações da Chevrolet",
+        "marca": "Chevrolet",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://www.ofertaschevrolet.com.br/Imagem/Veiculo/5S48VJ_R7H_AZULIMPERIAL.png"
+    },
+    {
+        "id": 6,
+        "nome": "Hilux",
+        "descricao": "A Toyota Hilux, e Toyota Tacoma, são as camionetes compactas fabricadas e comercializadas pela Toyota Motor Corporation. O nome Hilux foi adotado como um substituto do Stout em 1969, e permanece em uso em todo o mundo.",
+        "marca": "Toyota",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "http://cdn.toyota.com.br/wp-content/uploads/2015/11/tyt_menu_icon_90220_hilux-cabine-dupla-icon_w255h0px.png"
+    },
+    {
+        "id": 7,
+        "nome": "Cobalt",
+        "descricao": "O Cobalt é um sedan compacto introduzido pela Chevrolet em 2011 no Brasil e em países emergentes, para substituição do Chevrolet Corsa sedan. Ele figurava acima dos modelos sedã Prisma e Sonic, abaixo do Cruze, na linha de carros da marca no Brasil, quando de seu lançamento.",
+        "marca": "Chevrolet",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "http://www.chevrolet.com.br/content/dam/Chevrolet/lat-am/Brazil/nscwebsite/pt/Home/Cars/cobalt-2018/model/01-img/chevrolet_cobalt_2018_78_prata_switchblade.jpg"
+    },
+    {
+        "id": 8,
+        "nome": "Spin",
+        "descricao": "O Chevrolet Spin 2018 é a minivan ideal para você e sua família. Além de muito conforto e versatilidade, esse veículo oferece o maior porta-malas da categoria (710L) e um generoso espaço interno com opções de 5 e 7 lugares.r",
+        "marca": "Chevrolet",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "http://www.chevrolet.com.br/content/dam/Chevrolet/lat-am/Brazil/nscwebsite/pt/Home/Cars/spin-2018/model-overiview/01-img/chevrolet-spin-2018-exterior.jpg"
+    },
+    {
+        "id": 9,
+        "nome": "Fiesta",
+        "descricao": "O Fiesta é um carro hatchback produzido pela Ford desde 1976. Atualmente, se encontra em sua sétima geração. O Fiesta é um projeto global, sendo fabricado e comercializado em vários lugares do mundo.",
+        "marca": "Ford",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://s2.glbimg.com/Rsqme7FTWNDax2FkOaqByxmuJYQ=/1080x608/top/smart/s.glbimg.com/jo/g1/f/original/2011/08/25/fiesta_rocam_hatch_foto_1.jpg"
+    },
+    {
+        "id": 10,
+        "nome": "Pegeout 207",
+        "descricao": "Sucessor do Peugeot 206, o Peugeot 207 é um carro mais robusto e seguro que o antecessor, com mais de 1250 kg e 4 m de comprimento.",
+        "marca": "Peugeot",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://automobile-assets.s3.amazonaws.com/automobile/body/peugeot-207-2010-2014-1478412062.26.jpeg"
+    },
+    {
+        "id": 11,
+        "nome": "Prisma",
+        "descricao": "O Prisma é um modelo sedan compacto de quatro portas fabricado pela Chevrolet do Brasil, lançado, em sua primeira versão, no segundo semestre de 2006 e, em sua segunda versão, em fevereiro de 2013",
+        "marca": "Chevrolet",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://www.ofertaschevrolet.com.br/Imagem/Veiculo/5T69VH_R8J_BRANCOSUMMIT.png"
+    },
+    {
+        "id": 12,
+        "nome": "KA",
+        "descricao": "O Ka é um modelo de carro fabricado pela Ford no Brasil, em sua fábrica em Camaçari, anteriormente em São Bernardo do Campo e na Europa.",
+        "marca": "Ford",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "http://www.ribeirojung.com.br/site/wp-content/themes/ribeirojung/images/img_car_6_ka.png"
+    },
+    {
+        "id": 13,
+        "nome": "Uno",
+        "descricao": "O Uno é um automóvel compacto fabricado pela Fiat, lançado na Europa em 1983. Foi lançado no Brasil no ano seguinte, e sua nova geração (projetada no Brasil) só foi lançada em 2010, direcionada aos países da América Latina.",
+        "marca": "Fiat",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://s2.glbimg.com/oE7nDE-QC4JsYdjIq1Y_HdmwTeI=/540x304/top/smart/http://s.glbimg.com/jo/g1/f/original/2012/05/28/unosporting.jpg"
+    },
+    {
+        "id": 14,
+        "nome": "Sportage",
+        "descricao": "O Sportage é um utilitário esportivo compacto da Kia: foi lançado em 1993.",
+        "marca": "Kia Motors",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://cars.usnews.com/static/images/Auto/izmo/i32686254/2018_kia_sportage_angularfront.jpg"
+    },
+    {
+        "id": 15,
+        "nome": "Sorento",
+        "descricao": "O Kia Sorento é um utilitário esportivo da Kia Motors, ficando abaixo do Kia Mohave, porém acima do Kia Sportage.Em quesito segurança o Sorento 2011 foi galardoado com a classificação máxima 5/5 estrelas de segurança do especialista em segurança acidente",
+        "marca": "Kia Motors",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://s.aolcdn.com/commerce/autodata/images/USC60KIS021A021001_2.jpg"
+    },
+    {
+        "id": 16,
+        "nome": "Corolla",
+        "descricao": "O Corolla carrega o DNA de tradição e qualidade da marca Toyota, reconhecido mundialmente. Não é à toa que é o sedã médio líder em vendas no Brasil e vencedor de diversos prêmios9 na categoria.",
+        "marca": "Toyota",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "http://www.toyota.com.br/wp-content/themes/toyota/monte-o-seu/corolla/car-page/ciclo/gli_at_couro_040.png"
+    },
+    {
+        "id": 17,
+        "nome": "Siena",
+        "descricao": "O Siena foi a versão sedã do Fiat Palio. Fabricado pela Fiat no Brasil, Argentina, Índia, Turquia, México, África do Sul, China e Vietnã, além de ser produzido sob licença em Nampo, Coreia do Norte, com o nome de Pyonghwa Hwiparam.",
+        "marca": "Fiat",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "http://bestcars.uol.com.br/bc/wp-content/uploads/2016/09/Fiat-Grand-Siena-Essence-01.jpg"
+    },
+    {
+        "id": 18,
+        "nome": "Kombi",
+        "descricao": "A Volkswagen Kombi foi um automóvel utilitário produzido pela empresa automotiva alemã Volkswagen, entre 1950 e 2013. Por força de um decreto, os carros a partir de 2014",
+        "marca": "Volkswagen",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "http://www.sportmachine.tv/site/wp-content/uploads/2016/06/Divulga%C3%A7%C3%A3o-Kombi-Modelo-2013-2014.jpg"
+    },
+    {
+        "id": 19,
+        "nome": "Golf",
+        "descricao": "Golf é um automóvel fabricado pela Volkswagen. Foi lançado no mercado europeu em 1974 e no mercado brasileiro em 1995, quando já estava na sua terceira geração. ",
+        "marca": "Volkswagen",
+        "quantidade": 10,
+        "preco": 25000,
+        "imagem": "https://www.vw.com.br/content/dam/vw-ngw/vw_pkw/importers/br/models/my18/golf/cutouts/Golf_Comfortline_Cutout_378x143_1280x484px.png/jcr:content/renditions/original.transform/min/img.png"
+    }
+]
