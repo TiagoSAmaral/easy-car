@@ -31,8 +31,8 @@ class Stubs {
 		OHHTTPStubs.removeAllStubs()
 	}
 
-	static func loadFile(with name: String, in bundleClass: AnyClass) -> Data {
-		let path = Bundle(for: bundleClass).path(forResource: name, ofType: "json")
+	static func loadFile(named name: String) -> Data {
+		let path = Bundle(for: Stubs.self).path(forResource: name, ofType: "json")
 		do {
 			return try Data(contentsOf: URL(fileURLWithPath: path!), options: .mappedIfSafe)
 		} catch {
