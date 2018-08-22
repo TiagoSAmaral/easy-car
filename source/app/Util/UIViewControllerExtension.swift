@@ -40,4 +40,21 @@ extension UIViewController {
 
 		return UIBarButtonItem(customView: bttn)
 	}
+
+	func showAlert(with title: String, and message: String, completion: (() -> Void)?) {
+
+		let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
+		alert.addAction(UIAlertAction(title: "Fechar", style: .cancel, handler: nil))
+		self.present(alert, animated: true, completion: completion)
+	}
+
+	func setBackButtonTitle(with text: String) {
+
+		self.navigationItem.backBarButtonItem = UIBarButtonItem(title: text, style: UIBarButtonItemStyle.plain, target: nil, action: nil)
+	}
+
+	func setNavigationTitleView(with text: String) {
+
+		self.navigationItem.title = text
+	}
 }
