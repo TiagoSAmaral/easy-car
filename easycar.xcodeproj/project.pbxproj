@@ -7,12 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F1AD3AAA212C8A5E00123050 /* RouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD3AA9212C8A5E00123050 /* RouterTests.swift */; };
+		F1AD3AAC212C8BFA00123050 /* ApiPathsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD3AAB212C8BFA00123050 /* ApiPathsTests.swift */; };
+		F1AD3AC4212CB0F700123050 /* ShopCellTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1AD3AC3212CB0F700123050 /* ShopCellTests.swift */; };
 		F1D9A9CD21234D3000927706 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D9A9BF21234D3000927706 /* LaunchScreen.storyboard */; };
 		F1D9A9CE21234D3000927706 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9A9C221234D3000927706 /* AppDelegate.swift */; };
 		F1D9A9D021234D3000927706 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F1D9A9C521234D3000927706 /* Assets.xcassets */; };
-		F1D9A9D8212356D900927706 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9A9D7212356D900927706 /* ViewController.swift */; };
-		F1D9A9DA212356E700927706 /* ViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D9A9D9212356E700927706 /* ViewController.storyboard */; };
-		F1D9A9F02123665300927706 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9A9EE212365F000927706 /* ViewControllerTests.swift */; };
+		F1D9A9D8212356D900927706 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D9A9D7212356D900927706 /* ShopView.swift */; };
+		F1D9A9DA212356E700927706 /* ShopView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1D9A9D9212356E700927706 /* ShopView.storyboard */; };
 		F1DAB6B6212B09970067A6AB /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6B5212B09970067A6AB /* Network.swift */; };
 		F1DAB6B7212B11450067A6AB /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D9A9DF212363B900927706 /* Alamofire.framework */; };
 		F1DAB6B8212B11450067A6AB /* Kingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1D9A9E4212363B900927706 /* Kingfisher.framework */; };
@@ -21,13 +23,30 @@
 		F1DAB6BD212B11450067A6AB /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DAB6BB212B11450067A6AB /* Realm.framework */; };
 		F1DAB6BE212B11450067A6AB /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F1DAB6BC212B11450067A6AB /* RealmSwift.framework */; };
 		F1DAB6C1212B216A0067A6AB /* ShopButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C0212B216A0067A6AB /* ShopButton.swift */; };
-		F1DAB6C3212B21D90067A6AB /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C2212B21D90067A6AB /* StringExtension.swift */; };
+		F1DAB6C3212B21D90067A6AB /* FloatExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C2212B21D90067A6AB /* FloatExtension.swift */; };
 		F1DAB6C5212B230D0067A6AB /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C4212B230D0067A6AB /* UIViewControllerExtension.swift */; };
 		F1DAB6CA212B24430067A6AB /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C9212B24430067A6AB /* Colors.swift */; };
 		F1DAB6CB212BAB360067A6AB /* UtilTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6C7212B23E50067A6AB /* UtilTests.swift */; };
 		F1DAB6CE212BBE690067A6AB /* NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6CD212BBE690067A6AB /* NetworkTests.swift */; };
 		F1DAB6D1212BBE8C0067A6AB /* Stubs.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6D0212BBE8C0067A6AB /* Stubs.swift */; };
 		F1DAB6D4212BBF0D0067A6AB /* mocklistcar.json in Resources */ = {isa = PBXBuildFile; fileRef = F1DAB6D3212BBF0D0067A6AB /* mocklistcar.json */; };
+		F1DAB6D7212BD2D80067A6AB /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6D6212BD2D80067A6AB /* Router.swift */; };
+		F1DAB6D9212BD2E20067A6AB /* RouterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6D8212BD2E20067A6AB /* RouterView.swift */; };
+		F1DAB6DB212BD2EA0067A6AB /* Routes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6DA212BD2EA0067A6AB /* Routes.swift */; };
+		F1DAB6DD212BD3460067A6AB /* NSObjectExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6DC212BD3460067A6AB /* NSObjectExtension.swift */; };
+		F1DAB6DF212BD4840067A6AB /* Shop.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6DE212BD4840067A6AB /* Shop.swift */; };
+		F1DAB6E1212BD5060067A6AB /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6E0212BD5060067A6AB /* Vehicle.swift */; };
+		F1DAB6E3212BD54E0067A6AB /* ShopNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6E2212BD54E0067A6AB /* ShopNetwork.swift */; };
+		F1DAB6E5212BD5E90067A6AB /* ApiPaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6E4212BD5E90067A6AB /* ApiPaths.swift */; };
+		F1DAB6E7212BD6DF0067A6AB /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6E6212BD6DF0067A6AB /* Environment.swift */; };
+		F1DAB6EE212BE11E0067A6AB /* ShopCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DAB6EC212BE11E0067A6AB /* ShopCell.swift */; };
+		F1DAB6EF212BE11E0067A6AB /* ShopCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F1DAB6ED212BE11E0067A6AB /* ShopCell.xib */; };
+		F1DB9119212DCB2600B2F9E7 /* ShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB9118212DCB2600B2F9E7 /* ShopTests.swift */; };
+		F1DB911B212DDC5E00B2F9E7 /* UITableViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB911A212DDC5E00B2F9E7 /* UITableViewControllerExtension.swift */; };
+		F1DB911E212DE5A100B2F9E7 /* VehicleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB911D212DE5A100B2F9E7 /* VehicleDetailView.swift */; };
+		F1DB9120212DEAF800B2F9E7 /* VehicleDetailView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DB911F212DEAF800B2F9E7 /* VehicleDetailView.storyboard */; };
+		F1DB9123212DF0EB00B2F9E7 /* BasketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1DB9122212DF0EB00B2F9E7 /* BasketView.swift */; };
+		F1DB9125212DF0F500B2F9E7 /* BasketView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1DB9124212DF0F500B2F9E7 /* BasketView.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +60,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F1AD3AA9212C8A5E00123050 /* RouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterTests.swift; sourceTree = "<group>"; };
+		F1AD3AAB212C8BFA00123050 /* ApiPathsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPathsTests.swift; sourceTree = "<group>"; };
+		F1AD3AC3212CB0F700123050 /* ShopCellTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCellTests.swift; sourceTree = "<group>"; };
 		F1C1D32B211F894E00834C54 /* easycar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = easycar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1C1D33F211F895100834C54 /* easycarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = easycarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1D9A9C021234D3000927706 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -48,8 +70,8 @@
 		F1D9A9C321234D3000927706 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1D9A9C521234D3000927706 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F1D9A9CC21234D3000927706 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1D9A9D7212356D900927706 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F1D9A9D9212356E700927706 /* ViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ViewController.storyboard; sourceTree = "<group>"; };
+		F1D9A9D7212356D900927706 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
+		F1D9A9D9212356E700927706 /* ShopView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ShopView.storyboard; sourceTree = "<group>"; };
 		F1D9A9DF212363B900927706 /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
 		F1D9A9E0212363B900927706 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
 		F1D9A9E1212363B900927706 /* SwiftIconFont.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftIconFont.framework; path = Carthage/Build/iOS/SwiftIconFont.framework; sourceTree = "<group>"; };
@@ -57,18 +79,34 @@
 		F1D9A9E3212363B900927706 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
 		F1D9A9E4212363B900927706 /* Kingfisher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Kingfisher.framework; path = Carthage/Build/iOS/Kingfisher.framework; sourceTree = "<group>"; };
 		F1D9A9E5212363BA00927706 /* OHHTTPStubs.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OHHTTPStubs.framework; path = Carthage/Build/iOS/OHHTTPStubs.framework; sourceTree = "<group>"; };
-		F1D9A9EE212365F000927706 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		F1DAB6B5212B09970067A6AB /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		F1DAB6BB212B11450067A6AB /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
 		F1DAB6BC212B11450067A6AB /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = Carthage/Build/iOS/RealmSwift.framework; sourceTree = "<group>"; };
 		F1DAB6C0212B216A0067A6AB /* ShopButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopButton.swift; sourceTree = "<group>"; };
-		F1DAB6C2212B21D90067A6AB /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		F1DAB6C2212B21D90067A6AB /* FloatExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatExtension.swift; sourceTree = "<group>"; };
 		F1DAB6C4212B230D0067A6AB /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
 		F1DAB6C7212B23E50067A6AB /* UtilTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UtilTests.swift; sourceTree = "<group>"; };
 		F1DAB6C9212B24430067A6AB /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		F1DAB6CD212BBE690067A6AB /* NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkTests.swift; sourceTree = "<group>"; };
 		F1DAB6D0212BBE8C0067A6AB /* Stubs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stubs.swift; sourceTree = "<group>"; };
 		F1DAB6D3212BBF0D0067A6AB /* mocklistcar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = mocklistcar.json; sourceTree = "<group>"; };
+		F1DAB6D6212BD2D80067A6AB /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		F1DAB6D8212BD2E20067A6AB /* RouterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouterView.swift; sourceTree = "<group>"; };
+		F1DAB6DA212BD2EA0067A6AB /* Routes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routes.swift; sourceTree = "<group>"; };
+		F1DAB6DC212BD3460067A6AB /* NSObjectExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSObjectExtension.swift; sourceTree = "<group>"; };
+		F1DAB6DE212BD4840067A6AB /* Shop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shop.swift; sourceTree = "<group>"; };
+		F1DAB6E0212BD5060067A6AB /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		F1DAB6E2212BD54E0067A6AB /* ShopNetwork.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopNetwork.swift; sourceTree = "<group>"; };
+		F1DAB6E4212BD5E90067A6AB /* ApiPaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiPaths.swift; sourceTree = "<group>"; };
+		F1DAB6E6212BD6DF0067A6AB /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		F1DAB6EC212BE11E0067A6AB /* ShopCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopCell.swift; sourceTree = "<group>"; };
+		F1DAB6ED212BE11E0067A6AB /* ShopCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ShopCell.xib; sourceTree = "<group>"; };
+		F1DB9118212DCB2600B2F9E7 /* ShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopTests.swift; sourceTree = "<group>"; };
+		F1DB911A212DDC5E00B2F9E7 /* UITableViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITableViewControllerExtension.swift; sourceTree = "<group>"; };
+		F1DB911D212DE5A100B2F9E7 /* VehicleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VehicleDetailView.swift; sourceTree = "<group>"; };
+		F1DB911F212DEAF800B2F9E7 /* VehicleDetailView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = VehicleDetailView.storyboard; sourceTree = "<group>"; };
+		F1DB9122212DF0EB00B2F9E7 /* BasketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketView.swift; sourceTree = "<group>"; };
+		F1DB9124212DF0F500B2F9E7 /* BasketView.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BasketView.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +133,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F1AD3AA8212C8A2B00123050 /* RouterTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1AD3AA9212C8A5E00123050 /* RouterTests.swift */,
+			);
+			path = RouterTests;
+			sourceTree = "<group>";
+		};
+		F1AD3AC2212CB0AD00123050 /* ShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1AD3AC5212CB10500123050 /* components */,
+				F1DB9118212DCB2600B2F9E7 /* ShopTests.swift */,
+			);
+			path = ShopTests;
+			sourceTree = "<group>";
+		};
+		F1AD3AC5212CB10500123050 /* components */ = {
+			isa = PBXGroup;
+			children = (
+				F1AD3AC6212CB10C00123050 /* ShopCellTests */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		F1AD3AC6212CB10C00123050 /* ShopCellTests */ = {
+			isa = PBXGroup;
+			children = (
+				F1AD3AC3212CB0F700123050 /* ShopCellTests.swift */,
+			);
+			path = ShopCellTests;
+			sourceTree = "<group>";
+		};
 		F1C1D322211F894E00834C54 = {
 			isa = PBXGroup;
 			children = (
@@ -125,12 +196,15 @@
 		F1D9A9BD21234D3000927706 /* app */ = {
 			isa = PBXGroup;
 			children = (
-				F1DAB6BF212B21430067A6AB /* Util */,
-				F1DAB6B4212B097B0067A6AB /* Network */,
-				F1D9A9D6212356B500927706 /* ViewController */,
-				F1D9A9BE21234D3000927706 /* Launch */,
-				F1D9A9C121234D3000927706 /* System */,
+				F1DB9121212DF0CE00B2F9E7 /* Basket */,
 				F1D9A9C421234D3000927706 /* Assets */,
+				F1D9A9BE21234D3000927706 /* Launch */,
+				F1DAB6B4212B097B0067A6AB /* Network */,
+				F1DAB6D5212BD2970067A6AB /* Router */,
+				F1D9A9D6212356B500927706 /* Shop */,
+				F1D9A9C121234D3000927706 /* System */,
+				F1DAB6BF212B21430067A6AB /* Util */,
+				F1DB911C212DE56300B2F9E7 /* VehicleDetail */,
 			);
 			path = app;
 			sourceTree = "<group>";
@@ -163,30 +237,27 @@
 		F1D9A9C921234D3000927706 /* tests */ = {
 			isa = PBXGroup;
 			children = (
+				F1AD3AC2212CB0AD00123050 /* ShopTests */,
+				F1AD3AA8212C8A2B00123050 /* RouterTests */,
 				F1DAB6CF212BBE7B0067A6AB /* Stubs */,
 				F1DAB6CC212BBE4F0067A6AB /* NetworkTests */,
 				F1DAB6C6212B23C30067A6AB /* UtilTests */,
-				F1D9A9DC2123632500927706 /* ViewController */,
 				F1D9A9CC21234D3000927706 /* Info.plist */,
 			);
 			path = tests;
 			sourceTree = "<group>";
 		};
-		F1D9A9D6212356B500927706 /* ViewController */ = {
+		F1D9A9D6212356B500927706 /* Shop */ = {
 			isa = PBXGroup;
 			children = (
-				F1D9A9D7212356D900927706 /* ViewController.swift */,
-				F1D9A9D9212356E700927706 /* ViewController.storyboard */,
+				F1DAB6EA212BE0FA0067A6AB /* components */,
+				F1D9A9D7212356D900927706 /* ShopView.swift */,
+				F1D9A9D9212356E700927706 /* ShopView.storyboard */,
+				F1DAB6DE212BD4840067A6AB /* Shop.swift */,
+				F1DAB6E0212BD5060067A6AB /* Vehicle.swift */,
+				F1DAB6E2212BD54E0067A6AB /* ShopNetwork.swift */,
 			);
-			path = ViewController;
-			sourceTree = "<group>";
-		};
-		F1D9A9DC2123632500927706 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				F1D9A9EE212365F000927706 /* ViewControllerTests.swift */,
-			);
-			path = ViewController;
+			path = Shop;
 			sourceTree = "<group>";
 		};
 		F1D9A9DE212363B900927706 /* Frameworks */ = {
@@ -209,6 +280,7 @@
 			isa = PBXGroup;
 			children = (
 				F1DAB6B5212B09970067A6AB /* Network.swift */,
+				F1DAB6E4212BD5E90067A6AB /* ApiPaths.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -217,9 +289,12 @@
 			isa = PBXGroup;
 			children = (
 				F1DAB6C0212B216A0067A6AB /* ShopButton.swift */,
-				F1DAB6C2212B21D90067A6AB /* StringExtension.swift */,
+				F1DAB6C2212B21D90067A6AB /* FloatExtension.swift */,
 				F1DAB6C4212B230D0067A6AB /* UIViewControllerExtension.swift */,
 				F1DAB6C9212B24430067A6AB /* Colors.swift */,
+				F1DAB6DC212BD3460067A6AB /* NSObjectExtension.swift */,
+				F1DAB6E6212BD6DF0067A6AB /* Environment.swift */,
+				F1DB911A212DDC5E00B2F9E7 /* UITableViewControllerExtension.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -236,6 +311,7 @@
 			isa = PBXGroup;
 			children = (
 				F1DAB6CD212BBE690067A6AB /* NetworkTests.swift */,
+				F1AD3AAB212C8BFA00123050 /* ApiPathsTests.swift */,
 			);
 			path = NetworkTests;
 			sourceTree = "<group>";
@@ -255,6 +331,51 @@
 				F1DAB6D3212BBF0D0067A6AB /* mocklistcar.json */,
 			);
 			path = json;
+			sourceTree = "<group>";
+		};
+		F1DAB6D5212BD2970067A6AB /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAB6D6212BD2D80067A6AB /* Router.swift */,
+				F1DAB6D8212BD2E20067A6AB /* RouterView.swift */,
+				F1DAB6DA212BD2EA0067A6AB /* Routes.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		F1DAB6EA212BE0FA0067A6AB /* components */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAB6EB212BE1030067A6AB /* ShopCell */,
+			);
+			path = components;
+			sourceTree = "<group>";
+		};
+		F1DAB6EB212BE1030067A6AB /* ShopCell */ = {
+			isa = PBXGroup;
+			children = (
+				F1DAB6EC212BE11E0067A6AB /* ShopCell.swift */,
+				F1DAB6ED212BE11E0067A6AB /* ShopCell.xib */,
+			);
+			path = ShopCell;
+			sourceTree = "<group>";
+		};
+		F1DB911C212DE56300B2F9E7 /* VehicleDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB911D212DE5A100B2F9E7 /* VehicleDetailView.swift */,
+				F1DB911F212DEAF800B2F9E7 /* VehicleDetailView.storyboard */,
+			);
+			path = VehicleDetail;
+			sourceTree = "<group>";
+		};
+		F1DB9121212DF0CE00B2F9E7 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				F1DB9122212DF0EB00B2F9E7 /* BasketView.swift */,
+				F1DB9124212DF0F500B2F9E7 /* BasketView.storyboard */,
+			);
+			path = Basket;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -341,9 +462,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1DB9120212DEAF800B2F9E7 /* VehicleDetailView.storyboard in Resources */,
 				F1D9A9D021234D3000927706 /* Assets.xcassets in Resources */,
 				F1D9A9CD21234D3000927706 /* LaunchScreen.storyboard in Resources */,
-				F1D9A9DA212356E700927706 /* ViewController.storyboard in Resources */,
+				F1D9A9DA212356E700927706 /* ShopView.storyboard in Resources */,
+				F1DAB6EF212BE11E0067A6AB /* ShopCell.xib in Resources */,
+				F1DB9125212DF0F500B2F9E7 /* BasketView.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,11 +541,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F1D9A9D8212356D900927706 /* ViewController.swift in Sources */,
+				F1DB9123212DF0EB00B2F9E7 /* BasketView.swift in Sources */,
+				F1DAB6E1212BD5060067A6AB /* Vehicle.swift in Sources */,
+				F1DAB6E7212BD6DF0067A6AB /* Environment.swift in Sources */,
+				F1DAB6D7212BD2D80067A6AB /* Router.swift in Sources */,
+				F1DAB6E5212BD5E90067A6AB /* ApiPaths.swift in Sources */,
+				F1D9A9D8212356D900927706 /* ShopView.swift in Sources */,
 				F1DAB6CA212B24430067A6AB /* Colors.swift in Sources */,
+				F1DB911E212DE5A100B2F9E7 /* VehicleDetailView.swift in Sources */,
+				F1DAB6DF212BD4840067A6AB /* Shop.swift in Sources */,
+				F1DB911B212DDC5E00B2F9E7 /* UITableViewControllerExtension.swift in Sources */,
+				F1DAB6DD212BD3460067A6AB /* NSObjectExtension.swift in Sources */,
+				F1DAB6E3212BD54E0067A6AB /* ShopNetwork.swift in Sources */,
+				F1DAB6D9212BD2E20067A6AB /* RouterView.swift in Sources */,
 				F1DAB6C1212B216A0067A6AB /* ShopButton.swift in Sources */,
 				F1DAB6C5212B230D0067A6AB /* UIViewControllerExtension.swift in Sources */,
-				F1DAB6C3212B21D90067A6AB /* StringExtension.swift in Sources */,
+				F1DAB6C3212B21D90067A6AB /* FloatExtension.swift in Sources */,
+				F1DAB6DB212BD2EA0067A6AB /* Routes.swift in Sources */,
+				F1DAB6EE212BE11E0067A6AB /* ShopCell.swift in Sources */,
 				F1D9A9CE21234D3000927706 /* AppDelegate.swift in Sources */,
 				F1DAB6B6212B09970067A6AB /* Network.swift in Sources */,
 			);
@@ -431,8 +568,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1AD3AAC212C8BFA00123050 /* ApiPathsTests.swift in Sources */,
+				F1AD3AAA212C8A5E00123050 /* RouterTests.swift in Sources */,
+				F1DB9119212DCB2600B2F9E7 /* ShopTests.swift in Sources */,
 				F1DAB6CE212BBE690067A6AB /* NetworkTests.swift in Sources */,
-				F1D9A9F02123665300927706 /* ViewControllerTests.swift in Sources */,
+				F1AD3AC4212CB0F700123050 /* ShopCellTests.swift in Sources */,
 				F1DAB6CB212BAB360067A6AB /* UtilTests.swift in Sources */,
 				F1DAB6D1212BBE8C0067A6AB /* Stubs.swift in Sources */,
 			);
@@ -577,7 +717,7 @@
 		F1C1D349211F895100834C54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APP_DISPLAY_NAME = "O Globo -DBG";
+				APP_DISPLAY_NAME = "Easy Car -DBG";
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-debug";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7SQ2QJ5AU;
@@ -601,7 +741,7 @@
 		F1C1D34A211F895100834C54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				APP_DISPLAY_NAME = "O Globo";
+				APP_DISPLAY_NAME = "Easy Car";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = Y7SQ2QJ5AU;
