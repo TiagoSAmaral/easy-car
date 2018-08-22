@@ -59,7 +59,7 @@ class ShopCellTests: QuickSpec {
 
 	func loadVehicle() -> Vehicle {
 
-		let data = Stubs.loadFile(with: "mocklistcar", in: ShopCellTests.self)
+		let data = Stubs.loadFile(named: "mocklistcar")
 		return Vehicle.newVehicles(with: data)![0]
 	}
 }
