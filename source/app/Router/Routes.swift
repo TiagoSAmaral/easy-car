@@ -11,5 +11,5 @@ import Foundation
 enum Routes {
 	case shop
 	case detail
-	case cart
+	case basket
 }

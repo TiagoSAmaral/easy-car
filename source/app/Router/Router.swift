@@ -35,20 +35,14 @@ class Router: NSObject, RouterInterface{
 
 		case .detail:
 
-//			let viewInstance = buildView( view.file, CarDetailViewController.identifier, CarDetailViewController.self)
-//			viewInstance.presenter = CarDetailPresenter(view: viewInstance, router: self, vehicle: (data as? Vehicle)!)
-//			self.view?.pushViewController(viewInstance, animated: true)
+			let viewInstance = buildView(VehicleDetailView.identifier, VehicleDetailView.self)
+			self.view.pushViewController(viewInstance, animated: true)
 
-			print("Detail")
+		case .basket:
 
-		case .cart:
-
-			print("Bask")
-//			let viewInstance = buildView(view.file, CartViewController.identifier, CartViewController.self)
-//			viewInstance.presenter = CartPresenter(view: viewInstance, router: self)
-//			viewInstance.modalPresentationStyle = .overCurrentContext
-//
-//			self.view?.pushViewController(viewInstance, animated: true)
+			let viewInstance = buildView(BasketView.identifier, BasketView.self)
+			viewInstance.modalPresentationStyle = .overCurrentContext
+			self.view.pushViewController(viewInstance, animated: true)
 		}
 	}
 
