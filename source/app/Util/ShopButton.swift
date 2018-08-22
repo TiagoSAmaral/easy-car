@@ -39,13 +39,10 @@ class ShopButton: UIButton {
 	}
 
 	func setBackgroundColor() {
-
 		self.backgroundColor = Colors.primary.value
 	}
 
 	func setBorders(){
-
 		self.layer.cornerRadius = 10.0
 	}
-
 }
