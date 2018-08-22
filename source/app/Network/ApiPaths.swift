@@ -22,13 +22,14 @@ class ApiPaths: ApiPathsInterface {
 
 		switch enviroment.current {
 		case .debug:
-			self.urlBase = "http://localhost:3001/vehicles"
+			self.urlBase = "http://localhost:3001"
 		case .release:
-			self.urlBase = "https://raw.githubusercontent.com"
+			self.urlBase = "http://desafiobrq.herokuapp.com"
 		}
 	}
 
 	var urlListVehicles: URL {
-		return  URL(string: self.urlBase)!
+		self.urlBase.append("/v1/carro/")
+		return URL(string: self.urlBase)!
 	}
 }
